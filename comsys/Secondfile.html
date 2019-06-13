@@ -1,4 +1,3 @@
-
 <html>
 	
    	<head>
@@ -20,14 +19,13 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	
 	<body>
-		
-		<div class="image">
+		<div id="block_container">
+        <div id="two" align="right"><font size=4 face="Arial" ">Hello!<div id="data"></div>  You are logged in.<br><a href="Firstfile.html">Logout</a></div>
+        </div>
+        <div class="image">
 		<img src="3.jpg" width="350" height="140"/>		
-		</div>
-   
-        <div id="block_container">
-		
-        </div>        
+		</div><center><font size=6 face="Century Gothic" color="#0F245C"<div class="one"><u><b>Complaint Management Centre</b></u></center></div><br>
+               
             <form action="pictures.html">
        			<html>
 	
@@ -39,62 +37,48 @@
 <body>
 <form action="#" name="Complaint Registration" onsubmit="return(validate());">
 
-<table cellpadding="2" width="40%" bgcolor="white" align="center"
+<table cellpadding="2" width="50%" height="75%"bgcolor="#F3F1F1" align="center"
 cellspacing="2">
 <tr>
 <td colspan=2>
-<center><font size=6><font weight 900><b>Complaint Registration Form</b></font></center>
+<font size=5 face="Times New Roman"><u><b>Complaint Registration Form:</b><u></font>
 </td>
 </tr>
-
+</div>
+<div class="inp">
 <tr>
-<td>Name of Complainer</td>
+<td>Name</td>
 <td><input type="text" name="Complainer name" id="cname" size="30"></td>
 </tr>
-
-<tr>
-<td>Employee Id</td>
-<td><input type="text" name="employeeId" id="eid" size="30"></td>
-</tr>
-
 <tr>
 <td>Seat No</td>
 <td><input type="text" name="seat no" id="sno" size="30"></td>
 </tr>
 
 <tr>
-<td>Mobile Number</td>
-<td><input type="int" name="mobileno" id="mobileno" size="30"></td>
+<td>Employee No.</td>
+<td><input type="text" name="employeeId" id="eid" size="30"></td>
 </tr>
+<tr>
+<td>MobileNo</td>
+<td><input type="text" name="mobileno" id="mobileno" size="30"></td>
+</tr>
+
+
 <tr>
 <td> Complaint Date</td>
 <td><input type="text" name="Complaint Date" id="cdate" size="30"></td>
 </tr>
 
-
-
-
-<div class="inp">
-
+<tr>
 <td>Complaint To</td>
 <td><select name="Complaint To">
 <option value="-1" selected>select..</option>
 <option value="Finance Department">FINANCE DEPARTMENT</option>
 <option value="Maintenance">MAINTENANCE</option>
 <option value="It">IT</option>
-
 </select></td>
 </tr>
-</div>
-
-<div class="inp">
-<tr>
-<td>Complaint Details</td>
-<td><input type="text" name="complaint details" id="cdetails	"
-size="30"></td>
-</tr>
-</div>
-
 
 <tr>
 <td>Complaint Type</td>
@@ -106,10 +90,14 @@ size="30"></td>
 <option value="telephone Related">TELEPHONE RELATED</option>
 </select></td>
 </tr>
-
-
 <tr>
-// <td><input type="reset"></td> 
+<td>Complaint Details</td>
+<td><input type="text" name="complaint details" id="cdetails	"
+size="30"></td>
+</tr>
+</div>
+
+<td><input type="reset"></td>
 <td colspan="2"><input type="submit" value="Submit Form" /></td>
 </tr>
 </table>
@@ -128,11 +116,7 @@ size="30"></td>
    
   }
     processForm();
-</script>
-        
-        
-        
-        <div id="two">Hello <div id="data"></div>!  You are logged in.<a href="Firstfile.html">Logout</a></div>
+
 
 </body>
 </html>
